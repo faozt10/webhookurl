@@ -1,0 +1,6 @@
+[build]
+  functions = "netlify/functions"
+  publish = "public"  # optional empty folder
+
+[functions]
+  github-webhook = { maxDuration = 30 }
